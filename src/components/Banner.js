@@ -1,3 +1,5 @@
+import icon from '../images/logo.png'
+
 export default function Banner(props) {
 
   function goToQuote(params) {
@@ -7,8 +9,12 @@ export default function Banner(props) {
   return(
     <>
     <div className="banner" id="homeLink">
-     <div className="leftpanel">
-
+     <div className="leftpanel">      
+      <div className='logo'>
+        {/* <img src={icon}/> */}
+        </div>
+      <h2>Call today for a free consultation</h2>
+      <h2>(555)555-5555</h2>
      </div>
      <div className="rightpanel">
       <h1>Best Solver at Most Problems</h1>
