@@ -11,7 +11,7 @@ export default function Nav(props) {
         <li><a onClick={() => goToDiv('servicesLink')} href="#services">Services</a></li>
         <li><a onClick={() => goToDiv('projectsLink')} href="#projects">Projects</a></li>
         <li><a onClick={() => goToDiv('contactLink')} href="#contact">Contact</a></li>
-        <li><button>Get Free Quote</button></li>
+        <li><span>(330) 635-1825</span></li>
       </ul>
     </nav>
   )

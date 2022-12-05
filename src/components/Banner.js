@@ -14,12 +14,12 @@ export default function Banner(props) {
         {/* <img src={icon}/> */}
         </div>
       <h2>Call today for a free consultation</h2>
-      <h2>(555)555-5555</h2>
+      <h2>(330) 635-1825</h2>
      </div>
      <div className="rightpanel">
-      <h1>Best Solver at Most Problems</h1>
-      <p>I can help fix sink and stink</p>
-      <button>Get Free Quote</button>
+      <h1>Handyman Services & Contacting</h1>
+      <p>Services and Repairs + Carpentry; Contracting; Masonry; Electrical</p>
+      <span>Call Today (330) 635-1825</span>
      </div>
     </div>
   </>
