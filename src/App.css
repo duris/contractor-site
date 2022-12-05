@@ -266,5 +266,8 @@ footer{
   .rightpanel{
     background-position-x: 40%;
   }
+  .projects section{
+    grid-template-columns: 1fr;
+  }
 }
 

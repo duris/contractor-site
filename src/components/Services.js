@@ -16,7 +16,7 @@ export default function Services(props) {
           </article>
           <article>
           <span className="checkmark"></span>
-            <h2>Light Fixture Replacemens</h2>
+            <h2>Light Fixture Replacements</h2>
           </article>
           <article>
           <span className="checkmark"></span>
