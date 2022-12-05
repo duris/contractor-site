@@ -17,7 +17,7 @@ export default function Banner(props) {
       <h2>(330) 635-1825</h2>
      </div>
      <div className="rightpanel">
-      <h1>Handyman Services & Contacting</h1>
+      <h1>Handyman Services & Contracting</h1>
       <p>Services and Repairs + Carpentry; Contracting; Masonry; Electrical</p>
       <span>Call Today (330) 635-1825</span>
      </div>

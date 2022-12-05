@@ -190,7 +190,7 @@ footer{
   position: relative;
 }
 .checkmark {
-  background-image: url(http://localhost:3000/static/media/checkmarks.69b0c00f30141213cf38.jpg);
+  background-image: url('https://ik.imagekit.io/zhmk2wx4u/checkmarks_WOxH_XtSG.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1670251041521');
   width: 70px;
   height: 70px;
   display: block;
