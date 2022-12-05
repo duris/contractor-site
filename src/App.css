@@ -203,11 +203,13 @@ footer{
 
 .services article{
   border: 1px solid gray;
-  margin: 4%;
+  margin: 4% 5%;
   border-radius: 5px;
   padding: 3% 0 ;
   font-size: 16px;
   position: relative;
+  width: 80%;
+  float: right;
 }
 .checkmark {
   background-image: url('https://ik.imagekit.io/zhmk2wx4u/checkmarks_WOxH_XtSG.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1670251041521');
@@ -218,7 +220,7 @@ footer{
   background-size: 100%;
   background-position: 36px 0;
   background-repeat: no-repeat;
-  left: -54px;
+  left: -80px;
   bottom: -20px;
 }
 .rightpanel{
@@ -236,6 +238,9 @@ footer{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 30px;
+  /* border-bottom: 4px solid darkslategray;
+  border-top: 4px solid darkslategray; */
+  padding: 20px 0;
 }
 .feature div{
   color: darkslategrey;
@@ -245,11 +250,13 @@ footer{
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 5px solid darkslategray;
-  margin: 10%;
+  border-right: 4px solid darkslategray;
+  padding: 10%;
   font-style: italic;
 }
-
+.feature div:nth-child(4){
+  border:none;
+}
 .beforeAfter{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -275,8 +282,11 @@ footer{
     width: 100%;
   }
   .feature div{
-    height: 100px;
+    height: auto;
     margin: 0;
+    border-right: 0;
+    border-bottom: 2px solid darkslategray;
+    padding: 20px;
   }
   .rightpanel p {
     font-size: 24px;
