@@ -10,6 +10,9 @@ export default function Feature(props) {
       <div>
         <span>No Job Too Small, or Big</span>
       </div>
+      <div>
+        <span>20 Years Experience</span>
+      </div>
     </div>
   )
 } 

@@ -121,7 +121,7 @@ form{
 
 .projects{
   width: 100%;
-  background-color: rgb(176, 210, 253);
+  background-color: rgb(82, 106, 226);
   padding: 10vh 0  0;
 }
 .contact{
@@ -136,9 +136,9 @@ footer{
   color: #fff;
 }
 .projects h1{
-  color: rgb(49, 49, 49);
+  color: white;
   font-size: 40px;
-  text-shadow: 0 0 20px rgb(255, 255, 255);
+  text-shadow: 0 0 10px rgb(165, 165, 165);
 }
 .projects section{
   padding: 20px;
@@ -148,9 +148,26 @@ footer{
   grid-gap: 20px;
 }
 .projects article {
-  padding: 5vh 5vh 20vh; 
+  padding: 0;
   background-color: #fff;
+ 
 }
+
+.before, .after{
+  position: relative;
+}
+.beforeAfter span{
+  background-color: gray;
+  text-align: center;
+  width: 100%;
+  opacity: .7;
+  color:#fff;
+  font-size: 18px;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+}
+
 
 
 .rightpanel{
@@ -217,7 +234,7 @@ footer{
 .feature{
   background-color: #fff;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 30px;
 }
 .feature div{
@@ -236,6 +253,16 @@ footer{
 .beforeAfter{
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.projects h2{
+  padding: 10px;
+  display: block;
+  background-color: #fff;
+}
+.banner h2{
+  padding: 20px 0;
+  font-style: italic;
 }
 
 @media only screen and (max-width: 800px) {
@@ -262,6 +289,7 @@ footer{
     font-size: 40px;
     padding: 10% 0 0 ;
   }
+
   .app-header nav{
     display: none;
   }
