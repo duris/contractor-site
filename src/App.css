@@ -238,6 +238,11 @@ footer{
   .feature{
     grid-template-columns: 1fr;    
   }
+  .app-header, .header-bg {
+    height: 55px;
+    top: 0;
+    width: 100%;
+  }
   .feature div{
     height: 100px;
     margin: 0;
@@ -258,7 +263,7 @@ footer{
   }
   .banner{
     grid-template-columns: 1fr;
-    height: 40vh;
+    height: auto;
   }
   .leftpanel{
     display: none;
